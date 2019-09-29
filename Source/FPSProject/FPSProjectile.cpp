@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "FPSProject.h"
 #include "FPSProjectile.h"
+#include "FPSProject.h"
 
 // Sets default values
 AFPSProjectile::AFPSProjectile()
@@ -61,7 +61,6 @@ void AFPSProjectile::BeginPlay()
 void AFPSProjectile::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 // 在发射方向上设置发射物初速度的函数

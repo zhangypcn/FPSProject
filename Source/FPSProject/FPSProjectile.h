@@ -6,6 +6,9 @@
 #include "GameFramework/Actor.h"
 #include "FPSProjectile.generated.h"
 
+
+
+
 UCLASS()
 class FPSPROJECT_API AFPSProjectile : public AActor
 {
